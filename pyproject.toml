@@ -1,0 +1,13 @@
+[project]
+name = "ml-project"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "numpy",
+    "pyarrow",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.core"
